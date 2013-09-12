@@ -1,5 +1,4 @@
-<FeatureToggle>
+<features>
     <feature name="Toggle On" value="on"/>
     <feature name="Toggle Off" value="off"/>
-
-</FeatureToggle>
+</features>

@@ -1,0 +1,4 @@
+<features>
+    <feature name="Toggle On for staff" value="on"/>
+    <feature name="Toggle Off for staff" value="off"/>
+</features>

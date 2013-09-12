@@ -1,8 +1,6 @@
 package com.toggle.v2;
 
-import com.toggle.ProductionFeature;
-
-public class FeatureFactory {
+public class FeatureFactory{
 
     public static Feature Build(ToggleType toggleType) {
         Feature feature = null;
@@ -10,6 +8,10 @@ public class FeatureFactory {
         switch (toggleType) {
             case STANDARD_TOGGLE:
                 feature = new StandardFeature();
+                break;
+            case STAFF_TOGGLE:
+                feature = new StaffOnlyFeature();
+                break;
         }
 
         return feature;

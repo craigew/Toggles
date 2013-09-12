@@ -2,11 +2,11 @@ package com.toggle.v2;
 
 public class StandardFeature extends Feature {
     public StandardFeature() {
-        super();
+        super(ToggleType.STANDARD_TOGGLE);
     }
 
     @Override
-    boolean isValid(Object object) {
+    boolean isValid() {
         return true;
     }
 }
